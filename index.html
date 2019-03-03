@@ -8,65 +8,83 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
 <link rel="stylesheet" href="style.css">
 <title>Bootstrap Bio</title>
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+  <!-- Custom styles for this template -->
+  <link href="navbar.css" rel="stylesheet">
 </head>
-<body>
 
-    <style>
-        .bd-placeholder-img {
-          font-size: 1.125rem;
-          text-anchor: middle;
-          -webkit-user-select: none;
-          -moz-user-select: none;
-          -ms-user-select: none;
-          user-select: none;
-        }
+<body>
+    
+<nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Melissa Day</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+    </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExample01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    
+    </ul>
   
-        @media (min-width: 768px) {
-          .bd-placeholder-img-lg {
-            font-size: 3.5rem;
-          }
-        }
-      </style>
-      <!-- Custom styles for this template -->
-      
-    </head>
-<body>
-
-
-
-    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-        <h5 class="my-0 mr-md-auto font-weight-normal">Melissa Day</h5>
-              <nav class="my-2 my-md-0 mr-md-3">
-                <a class="p-2 text-dark" href="#">About</a>
-                <a class="p-2 text-dark" href="#">Portfolio</a>
-                <a class="p-2 text-dark" href="#">Contact</a>
-               
-              </nav>
-             
-            </div>
+  </div>
+</nav>
 
 <div class="container">
+ 
 
-<div class="row">
+  <div class="row">
     <div class="col-sm-12">
         <h1>About Me</h1>
     </div>
 
-</div>
+  </div>
 
-<div class="row">
-    <div class="col-sm-12">
-        <img src="./images/MDP_5740.jpg" width="250px">
-        
-            <p>Welcome to my little piece of the web. Get comfortable while I tell you a little about who I am.</p>
+  <div class="row">
+      
+      <div class="col-sm-12"> 
+        <div ><img src="./images/MDP_5740.jpg" class="float-left" id="profile-pic" width="200px"></div>
+        <div>
+          <p>Welcome to my little piece of the web. Get comfortable while I tell you a little about who I am.</p>
 
             <p>My name is Melissa Day. I am a Freelance Photographer with a background in Anthropology and Peace Studies. I have a slight obsession with traveling to new places and experiencing new cultures. Throughout the years I have backpacked along the Continental Divide, rafted down roaring rivers, jumped from a perfectly good airplane, sailed aboard a floating hospital to deliver aid to an African nation rich in culture, broken bread with a family in a small village in Sierra Leone in which the largest barrier was language and spent a night combing the seas with local fisherman along the coast of Ecuador. I could go on, but you get the point. I like to challenge myself by pushing on the border of my ever expanding comfort zone.</p>
         
             <p>My experiences have opened my mind and broadened my creativity. I am hoping to use what I have learned so far to deep dive into the world of web developing. So pull up a chair and stay for a while.</p>
-        </div>
-    </div>
+      </div>   
+      </div>
+  </div>
    
 </div>
+<footer class="footer fixed-bottom">
+    <div class="container">
+      <span class="text-muted">Place sticky footer content here.</span>
+    </div>
+  </footer>
 
 
 
