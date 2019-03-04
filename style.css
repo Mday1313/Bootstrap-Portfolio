@@ -10,12 +10,13 @@ body {
     background: #fff;
      font-family: Georgia, 'Times New Roman', Times, serif;
      border-bottom: 2px solid #ccc;
+
      
 }
 
 
 .my-name {
-    width: 960px;
+    max-width: 960px;
     color: #4aaaa5;
    
     margin: auto;
@@ -68,6 +69,16 @@ footer {
     font-size: 14px;
     color: #999;
     
+}
+
+@media screen and (max-width: 680px) {
+
+    #profile-pic {
+        width: 100%;
+        margin: 0;
+    }
+
+  
 }
 
 /*
